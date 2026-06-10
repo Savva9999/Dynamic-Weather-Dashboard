@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 1s ease-in-out;
+    overflow: hidden;
+}
+
+body.hot {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+}
+
+body.warm {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
+body.normal {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+body.cold {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+body.freezing {
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
