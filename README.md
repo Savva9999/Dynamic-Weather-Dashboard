@@ -1,3 +1,8 @@
+
+## API-key you can find here
+
+https://openweathermap.org/
+
 # Weather
 
 This template should help get you started developing with Vue 3 in Vite.
